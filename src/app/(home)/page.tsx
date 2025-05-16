@@ -5,6 +5,7 @@ import { Fragment } from 'react';
 export default function Home() {
   return (
     <Fragment>
+      {/* HERO SECTION */}
       <section>
         <div className="relative overflow-hidden min-h-[500px]">
           <div className="pl-2 gap-8 flex flex-col items-start justify-center  max-w-screen-xl mx-auto min-h-[500px]">

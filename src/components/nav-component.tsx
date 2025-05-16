@@ -15,12 +15,14 @@ export default function NavBar() {
           <div className="flex flex-col justify-between items-end relative">
             <div className="flex gap-4 mb-1">
               <Link
+                className="text-scout-azul"
                 href="https://www.instagram.com/escoteiros92/"
                 target="_blank"
               >
                 <Instagram />
               </Link>
               <Link
+                className="text-scout-azul"
                 href="https://www.facebook.com/Grupo92aep/?locale=pt_PT"
                 target="_blank"
               >
