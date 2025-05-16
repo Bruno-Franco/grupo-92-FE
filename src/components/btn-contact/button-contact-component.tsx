@@ -16,7 +16,7 @@ export default function BTNContact() {
   return (
     <button
       ref={btnRef}
-      className="relative  hover:bg-scout-azul hover:cursor-pointer bg-scout-verde py-3 px-6 text-scout-azul hover:text-scout-verde duration-150 transition-normal"
+      className="bg-scout-azul text-scout-verde hover:sm:bg-scout-azul hover:sm:cursor-pointer sm:bg-scout-verde py-3 px-6 sm:text-scout-azul hover:sm:text-scout-verde duration-150 transition-normal"
       onClick={handleClick}
     >
       <span className="font-semibold ">Contacte-nos!</span>

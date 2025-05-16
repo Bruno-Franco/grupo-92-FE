@@ -1,79 +1,160 @@
 import BTNContact from '@/components/btn-contact/button-contact-component';
 import Image from 'next/image';
+import { Fragment } from 'react';
 
 export default function Home() {
   return (
-    <section>
-      <div className="relative overflow-hidden min-h-[500px]">
-        <div className="pl-4 gap-8 flex flex-col items-start justify-center  max-w-screen-xl mx-auto min-h-[500px]">
-          <div className="">
-            <h2 className="text-3xl  sm:text-5xl text-scout-azul mb-2.5">
-              Venha Fazer Parte
-            </h2>
-            <h2 className="text-3xl  sm:text-5xl text-scout-azul">
-              Desta Jornada!
-            </h2>
+    <Fragment>
+      <section>
+        <div className="relative overflow-hidden min-h-[500px]">
+          <div className="pl-2 gap-8 flex flex-col items-start justify-center  max-w-screen-xl mx-auto min-h-[500px]">
+            <div className="w-1/2 gap-2 flex flex-col items-start ">
+              <h2 className="text-3xl  sm:text-5xl text-scout-azul font-bold">
+                Faz parte da Maior
+              </h2>
+              <h2 className="text-3xl  sm:text-5xl text-scout-azul mb-3.5 font-bold">
+                Aventura da tua VIDA!
+              </h2>
+              <p className="  sm:text-lg text-scout-azul mb-2.5">
+                🌲 DESCUBRE, EXPLORA, CONQUISTA 🌲
+              </p>
+              <div>
+                <p className="sm:text-lg text-scout-azul">
+                  Faça amigos, aprenda habilidades incríveis e
+                </p>
+                <p className="sm:text-lg text-scout-azul mb-2.5">
+                  viva aventuras inesquecíveis na natureza!
+                </p>
+              </div>
+            </div>
+            <BTNContact />
           </div>
-          <BTNContact />
+          <Image
+            className="min-w-screen -mask-linear-30 mask-linear-from-15% mask-linear-to-65%"
+            src="/escoteiros.jpg"
+            alt="Escoteiros"
+            fill
+            quality={100}
+            sizes="100vw"
+            style={{
+              objectFit: 'cover',
+              opacity: 0.75,
+              zIndex: -1,
+              objectPosition: 'center',
+            }}
+          />
         </div>
-        <Image
-          className="min-w-screen mask-l-from-20%"
-          src="/escoteiros.jpg"
-          alt="Escoteiros"
-          fill
-          quality={100}
-          sizes="100vw"
-          style={{
-            objectFit: 'cover',
-            opacity: 0.6,
-            zIndex: -1,
-            objectPosition: 'center',
-          }}
-        />
-      </div>
-      <div className="w-full max-w-screen-xl mx-auto px-1">
-        <h1>Grupo 92</h1>
-        <p>
-          O Grupo 92 dos Escoteiros de Portugal, sediado no Funchal, Madeira, é
-          uma unidade da Associação dos Escoteiros de Portugal (AEP). Este grupo
-          faz parte da presença escotista na região, que remonta a 1917, quando
-          foi fundado o primeiro grupo no antigo Liceu Jaime Moniz, influenciado
-          pela comunidade inglesa na Madeira.
-        </p>
-        <p>
-          Embora não haja informações detalhadas sobre a data exata de fundação
-          do Grupo 92, sabe-se que, entre 1982 e 1984, houve um esforço
-          significativo para expandir o escotismo na Madeira, resultando na
-          formação de vários grupos, incluindo o Grupo 92.
-        </p>
+      </section>
+      {/* Nova seção CTA com curiosidades */}
+      <section className="py-16 bg-scout-verde/10">
+        <div className="max-w-screen-xl mx-auto px-4">
+          <h2 className="text-3xl sm:text-4xl text-scout-azul font-bold text-center mb-12">
+            Sabias Que...? 🌍 Curiosidades Escotistas
+          </h2>
 
-        <p>
-          O Grupo 92 tem desempenhado um papel ativo na comunidade local,
-          colaborando com a Paróquia do Socorro em diversas atividades. Por
-          exemplo, em abril de 2010, o grupo participou nas celebrações do
-          Espírito Santo, auxiliando nas festividades dominicais, especialmente
-          num período em que a paróquia enfrentava escassez de colaboradores.
-        </p>
-        <p>
-          A Associação dos Escoteiros de Portugal tem uma presença significativa
-          na Madeira, com vários grupos distribuídos pela região. Além do Grupo
-          92, existem outros grupos no Funchal, como o Grupo 101 - Santa Luzia,
-          que celebrou o seu 40.º aniversário em dezembro de 2022.
-        </p>
-        <p>
-          A AEP na Madeira tem uma história rica, marcada por momentos
-          importantes, como a visita de Baden Powell, fundador do escotismo
-          mundial, à ilha em 1930. Após um período de menor atividade devido à
-          influência da Mocidade Portuguesa, a AEP retomou o seu dinamismo na
-          região a partir de 1967, com a reativação e fundação de vários grupos.
-        </p>
-        <p>
-          O Grupo 92 continua a ser uma parte integrante desta tradição
-          escotista na Madeira, contribuindo para o desenvolvimento de crianças
-          e jovens através de atividades que promovem valores como a
-          responsabilidade, o companheirismo e o serviço à comunidade.
-        </p>
-      </div>
-    </section>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            {/* Personalidades */}
+            <article className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-semibold text-scout-azul mb-4">
+                Escoteiros Famosos
+              </h3>
+              <ul className="space-y-3 text-scout-azul/90">
+                <li className="flex items-start">
+                  <span className="text-scout-verde font-bold mr-2">→</span>
+                  <span>
+                    O astronauta <strong>Neil Armstrong</strong>, primeiro homem
+                    a pisar na Lua, foi escoteiro!
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-scout-verde font-bold mr-2">→</span>
+                  <span>
+                    O ex-jogador <strong>David Beckham</strong> orgulha-se de
+                    ter sido escoteiro.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-scout-verde font-bold mr-2">→</span>
+                  <span>
+                    O fundador da Microsoft, <strong>Bill Gates</strong>,
+                    alcançou o posto de Eagle Scout!
+                  </span>
+                </li>
+              </ul>
+            </article>
+
+            {/* Benefícios */}
+            <article className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-semibold text-scout-azul mb-4">
+                O Que Vais Ganhar
+              </h3>
+              <ul className="space-y-3 text-scout-azul/90">
+                <li className="flex items-start">
+                  <span className="text-scout-verde font-bold mr-2">→</span>
+                  <span>
+                    Escoteiros têm <strong>20% mais probabilidade</strong> de se
+                    tornarem líderes nas suas carreiras!
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-scout-verde font-bold mr-2">→</span>
+                  <span>
+                    Aprendes mais de <strong>200 competências práticas</strong>{' '}
+                    que te serão úteis a vida toda.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-scout-verde font-bold mr-2">→</span>
+                  <span>
+                    Fazes amizades que podem durar <strong>toda a vida</strong>!
+                  </span>
+                </li>
+              </ul>
+            </article>
+
+            {/* Dados interessantes */}
+            <article className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-semibold text-scout-azul mb-4">
+                Factos Espetaculares
+              </h3>
+              <ul className="space-y-3 text-scout-azul/90">
+                <li className="flex items-start">
+                  <span className="text-scout-verde font-bold mr-2">→</span>
+                  <span>
+                    Existem mais de <strong>50 milhões</strong> de escoteiros em
+                    todo o mundo!
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-scout-verde font-bold mr-2">→</span>
+                  <span>
+                    Em Portugal, o escotismo existe há mais de{' '}
+                    <strong>100 anos</strong>!
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-scout-verde font-bold mr-2">→</span>
+                  <span>
+                    <strong>11</strong> dos 12 astronautas que pisaram na Lua
+                    eram escoteiros!
+                  </span>
+                </li>
+              </ul>
+            </article>
+          </div>
+
+          <div className="text-center">
+            <h3 className="text-2xl sm:text-3xl text-scout-azul font-semibold mb-6">
+              Pronto para a maior aventura da tua vida?
+            </h3>
+            <p className="text-lg text-scout-azul/90 mb-8 max-w-2xl mx-auto">
+              Junta-te ao Grupo 92 do Funchal e começa já a explorar, aprender e
+              crescer num ambiente único e cheio de aventuras!
+            </p>
+            <BTNContact />
+          </div>
+        </div>
+      </section>
+    </Fragment>
   );
 }
