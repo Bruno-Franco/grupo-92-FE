@@ -3,8 +3,16 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --scout_azul: rgb(0, 43, 127);
+  /* vv cor logo AEP vv */
+  --scout_azul: rgb(0, 65, 122);
+  /* --------- */
+
+  /* vv cor logo Funchal vv */
+  /* --scout_azul: rgb(0, 66, 137); */
+  /* --------- */
+
   --scout_verde: rgb(182, 216, 10);
+  --scout_verde-transluc: rgba(182, 216, 10, 0.8);
   font-family: var(--font-open_sans);
 }
 h1,
@@ -20,4 +28,5 @@ h6 {
   --color-foreground: var(--foreground);
   --color-scout-azul: var(--scout_azul);
   --color-scout-verde: var(--scout_verde);
+  --color-scout-verde-transluc: var(--scout-verde-transluc);
 }

@@ -26,7 +26,9 @@ export default function RootLayout({
       lang="pt-BR"
       className={`${openSans.variable} antialiased`}
     >
-      <body className={`${merriWeather.variable}  antialiased`}>
+      <body
+        className={`${merriWeather.variable}  antialiased min-h-screen flex flex-col`}
+      >
         {children}
       </body>
     </html>

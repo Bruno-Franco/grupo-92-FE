@@ -1,8 +1,53 @@
+import Link from 'next/link';
+import LogoMenu from './logo-menu';
+
 export default function Footer() {
   return (
-    <footer className="w-screen max-h-[300px] border-t-scout-verde border-4 bg-scout-azul">
-      <div>
-        <h1>footer</h1>
+    <footer className="w-screen bottom-0 border-t-scout-verde border-t-4 bg-scout-azul">
+      <div className="w-full max-w-screen-xl mx-auto px-1 py-4 md:py-8">
+        <div className="max-sm:flex-col max-sm:flex sm:flex sm:items-center sm:justify-between  max-sm:items-center">
+          <LogoMenu />
+
+          <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-300 sm:mb-0 max-sm:mt-6">
+            <li>
+              <Link
+                href={'/sobre-nos'}
+                className="hover:underline me-4 md:me-6"
+              >
+                Sobre Nós
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={'/missao-valores'}
+                className="hover:underline me-4 md:me-6"
+              >
+                Missão e Valores
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={'/ficha-de-contato'}
+                className="hover:underline"
+              >
+                Ficha de Contato
+              </Link>
+            </li>
+          </ul>
+        </div>
+        {/* <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" /> */}
+        <hr className="my-6 border-t-1 sm:mx-auto border-t-gray-600 lg:my-8" />
+        <span className="block text-sm text-gray-300 sm:text-center max-sm:text-center">
+          © 2025{' '}
+          <Link
+            href="https://www.linkedin.com/in/bruno-santos-webdeveloper/"
+            target="_blank"
+            className="hover:underline"
+          >
+            Feito por, Bruno-Franco
+          </Link>
+          . Sempre Alerta ❤️.
+        </span>
       </div>
     </footer>
   );

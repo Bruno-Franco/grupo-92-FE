@@ -3,14 +3,14 @@ import { Instagram, Facebook } from 'lucide-react';
 import HamburguerMenu from './hamburguer-component';
 import DropDownMenu from './dropdown-menu';
 import LinksMenu from './links-menu';
-import LogoMenu from './logo-menu';
+import LogoMenu92 from './logo-menu-92';
 
 export default function NavBar() {
   return (
-    <header className="border-b-scout-verde border-b-[3.5px]">
-      <nav className="max-w-[1300px] mx-auto my-1 px-1">
+    <header className="w-screen border-b-scout-verde border-b-[3.5px] h-[75px]">
+      <nav className="w-full max-w-screen-xl mx-auto mt-0.5 px-1">
         <div className="flex justify-between items-center">
-          <LogoMenu />
+          <LogoMenu92 />
 
           <div className="flex flex-col justify-between items-end relative">
             <div className="flex gap-4 mb-1">

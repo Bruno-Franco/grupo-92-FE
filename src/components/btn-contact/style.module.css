@@ -1,0 +1,3 @@
+.btn-change:active {
+  @apply scale-80  duration-200;
+}
