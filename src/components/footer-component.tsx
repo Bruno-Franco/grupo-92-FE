@@ -27,10 +27,10 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                href={'/ficha-de-contato'}
+                href={'/ficha-de-inscricao'}
                 className="hover:underline"
               >
-                Ficha de Contato
+                Ficha de Inscrição
               </Link>
             </li>
           </ul>

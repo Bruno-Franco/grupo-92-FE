@@ -10,8 +10,8 @@ export default function LinksMenu() {
       <Link href={'/missao-valores'}>
         <span className="text-scout-azul">Missão e Valores</span>
       </Link>
-      <Link href={'/ficha-de-contato'}>
-        <span className="text-scout-azul">Ficha de Contato</span>
+      <Link href={'/ficha-de-inscricao'}>
+        <span className="text-scout-azul">Ficha de Inscrição</span>
       </Link>
     </Fragment>
   );

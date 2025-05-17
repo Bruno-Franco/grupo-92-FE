@@ -24,10 +24,10 @@ export default function DropDownMenu() {
             <span className="">Missão e Valores</span>
           </Link>
           <Link
-            href={'/ficha-de-contato'}
+            href={'/ficha-de-inscricao'}
             onClick={handleMenu}
           >
-            <span className="">Ficha de Contato</span>
+            <span className="">Ficha de Inscrição</span>
           </Link>
         </div>
       )}
