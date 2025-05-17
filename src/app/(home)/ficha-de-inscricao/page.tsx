@@ -4,7 +4,7 @@ import { Fragment } from 'react';
 export default function FichaDeContato() {
   return (
     <Fragment>
-      <h1>Ficha de contato</h1>
+      <h1>Ficha de Pré-Inscrição</h1>
       <FormInputs />
     </Fragment>
   );
