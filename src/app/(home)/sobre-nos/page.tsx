@@ -91,10 +91,10 @@ export default function SobreNos() {
           <h3 className="text-2xl font-semibold text-scout-verde mb-4">
             O Nosso Lenço
           </h3>
-          <div className="w-full mb-8">
-            {/* <h4 className="text-xl font-bold text-scout-azul mb-3">
-              🧭 O Nosso Lenço
-            </h4> */}
+          <div className="bg-white p-6 rounded-lg shadow-md mb-8">
+            <h4 className="text-xl font-bold text-scout-azul mb-3">
+              🧭 Lenço do Grupo 92 do Funchal
+            </h4>
             <p>
               O lenço é a nossa identidade! O do Grupo 92 é{' '}
               <strong>branco e azul</strong>:
@@ -366,7 +366,7 @@ export default function SobreNos() {
             name: 'Grupo 92 da Associação dos Escoteiros de Portugal - Funchal',
             description:
               'Grupo de escoteiros localizado no Funchal, Madeira, fundado em 1982, com 43 anos de história',
-            url: 'https://www.grupo92escoteiros.pt',
+            // url: 'https://www.grupo92escoteiros.pt',
             foundingDate: '1982-02-22',
             address: {
               '@type': 'PostalAddress',
