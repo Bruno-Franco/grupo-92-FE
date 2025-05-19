@@ -47,7 +47,7 @@ export default function SobreNos() {
 
           <div className="flex flex-col md:flex-row gap-8 items-start mb-10">
             <div className="lg:w-5xl">
-              <h3 className="text-2xl font-semibold text-scout-verde mb-4">
+              <h3 className="text-2xl font-semibold text-scout-azul mb-4">
                 As Nossas Origens
               </h3>
               <div className="float-right ml-4 mb-2 md:ml-6 w-1/2 max-w-[180px]">
@@ -88,7 +88,7 @@ export default function SobreNos() {
               </p>
             </div>
           </div>
-          <h3 className="text-2xl font-semibold text-scout-verde mb-4">
+          <h3 className="text-2xl font-semibold text-scout-azul mb-4">
             O Nosso Lenço
           </h3>
           <div className="bg-white p-6 rounded-lg shadow-md mb-8">
@@ -125,7 +125,7 @@ export default function SobreNos() {
             />
           </div>
 
-          <h3 className="text-2xl font-semibold text-scout-verde mb-4">
+          <h3 className="text-2xl font-semibold text-scout-azul mb-4">
             A Nossa Jornada Pelo Funchal
           </h3>
 
@@ -163,7 +163,7 @@ export default function SobreNos() {
 
           <div className="flex flex-col md:flex-row gap-8 items-start mb-10">
             <div className="md:w-2/3">
-              <h3 className="text-2xl font-semibold text-scout-verde mb-4">
+              <h3 className="text-2xl font-semibold text-scout-azul mb-4">
                 O Nosso Impacto na Comunidade
               </h3>
 
@@ -274,7 +274,7 @@ export default function SobreNos() {
             </div>
           </div>
 
-          <h3 className="text-2xl font-semibold text-scout-verde mb-4">
+          <h3 className="text-2xl font-semibold text-scout-azul mb-4">
             Mas Afinal... O Que É Ser Escoteiro no Grupo 92?
           </h3>
 

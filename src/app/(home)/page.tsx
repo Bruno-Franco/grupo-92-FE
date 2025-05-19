@@ -32,7 +32,7 @@ export default function Home() {
           </div>
           <Image
             className="min-w-screen -mask-linear-30 mask-linear-from-15% mask-linear-to-65%"
-            src="/escoteiros.jpg"
+            src="/escoteiros-92-porto-santo.jpg"
             alt="Escoteiros"
             fill
             quality={100}

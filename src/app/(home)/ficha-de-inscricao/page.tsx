@@ -14,9 +14,9 @@ export default function FichaDeInscricao() {
   return (
     <div className="bg-scout-verde/5 min-h-screen">
       {/* Hero section */}
-      <section className="relative w-full h-64 md:h-80 overflow-hidden">
+      <section className="hidden sm:block relative w-full h-64 md:h-150 overflow-hidden">
         <Image
-          src="/inscricao-hero.jpg" // Substitua pelo caminho para uma imagem de escoteiros em atividade
+          src="/escoteiros-92-porto-santo.jpg" // Substitua pelo caminho para uma imagem de escoteiros em atividade
           alt="Junta-te ao Grupo 92 dos Escoteiros de Portugal"
           fill
           className="object-cover"

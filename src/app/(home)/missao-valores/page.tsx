@@ -92,7 +92,7 @@ export default function MissaoValores() {
           {/* Seção Visão */}
           <section className="mb-12">
             <div className="flex items-center mb-4">
-              <div className="bg-scout-verde h-8 w-8 rounded-full flex items-center justify-center mr-3">
+              <div className="bg-scout-azul h-8 w-8 rounded-full flex items-center justify-center mr-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -113,7 +113,7 @@ export default function MissaoValores() {
                   />
                 </svg>
               </div>
-              <h2 className="text-3xl font-bold text-scout-verde">
+              <h2 className="text-3xl font-bold text-scout-azul">
                 Nossa Visão
               </h2>
             </div>
@@ -174,7 +174,7 @@ export default function MissaoValores() {
               sustentável.
             </p>
 
-            <div className="bg-scout-verde/10 p-6 rounded-lg mb-6">
+            <div className="bg-scout-verde/10 p-6 rounded-lg mb-6  border-l-4 border-scout-azul">
               <p>
                 A adesão ao Escotismo é livre e deve ser feita sem barreiras. A
                 única condição é a vontade pessoal de assumir voluntariamente os
@@ -185,7 +185,7 @@ export default function MissaoValores() {
 
           {/* Seção Lei do Escoteiro */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-scout-verde mb-6 flex items-center">
+            <h2 className="text-3xl font-bold text-scout-azul mb-6 flex items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -355,58 +355,18 @@ export default function MissaoValores() {
                 </h3>
                 <ul className="space-y-4">
                   <li className="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-6 h-6 text-scout-verde mr-2"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
                     <span>
-                      Cumprir os meus deveres para com a minha Fé (ou outra
+                      ✅ Cumprir os meus deveres para com a minha Fé (ou outra
                       alusão de natureza religiosa)* e a Pátria
                     </span>
                   </li>
                   <li className="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-6 h-6 text-scout-verde mr-2"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
-                    <span>Auxiliar o próximo em todas as circunstâncias</span>
+                    <span>
+                      ✅ Auxiliar o próximo em todas as circunstâncias
+                    </span>
                   </li>
                   <li className="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-6 h-6 text-scout-verde mr-2"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
-                    <span>Viver segundo a Lei do Escoteiro</span>
+                    <span>✅ Viver segundo a Lei do Escoteiro</span>
                   </li>
                 </ul>
                 <p className="text-sm mt-4 italic">

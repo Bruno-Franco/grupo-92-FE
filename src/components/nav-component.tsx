@@ -4,6 +4,7 @@ import HamburguerMenu from './hamburguer-component';
 import DropDownMenu from './dropdown-menu';
 import LinksMenu from './links-menu';
 import LogoMenu92 from './logo-menu-92';
+import BTNCallPhone from './phone-call/phone-btn-component';
 
 export default function NavBar() {
   return (
@@ -13,7 +14,8 @@ export default function NavBar() {
           <LogoMenu92 />
 
           <div className="flex flex-col justify-between items-end relative">
-            <div className="flex gap-4 mb-1">
+            <div className="flex gap-4 mb-1 items-center">
+              <BTNCallPhone />
               <Link
                 className="text-scout-azul"
                 href="https://www.instagram.com/escoteiros92/"
