@@ -11,6 +11,6 @@ export async function POST(req: NextRequest) {
     body: JSON.stringify(dataBody),
   });
   const data = await response.json();
-  console.log('>>>>>>>>>>>reponse from post backend route', data);
+  // console.log('>>>>>>>>>>>reponse from post backend route', data);
   return NextResponse.json({ doservidor: data });
 }

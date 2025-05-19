@@ -32,8 +32,8 @@ export default function FormInputs() {
         body: bodyString,
       });
 
-      const dataResponse = await response.json();
-      console.log(dataResponse);
+      // const dataResponse = await response.json();
+      // console.log(dataResponse);
 
       if (response.ok) {
         setSubmitStatus('success');
