@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Merriweather_Sans, Open_Sans } from 'next/font/google';
 import './globals.css';
+import Script from 'next/script';
 
 const merriWeather = Merriweather_Sans({
   variable: '--font-merriWeather-sans',
@@ -30,6 +31,10 @@ export default function RootLayout({
       <body
         className={`${merriWeather.variable}  antialiased min-h-screen flex flex-col`}
       >
+        <Script
+          strategy="beforeInteractive"
+          src={`https://www.google.com/recaptcha/api.js?render=${process.env.NEXT_PUBLIC_CAPTCHA_SITE_KEY}`}
+        />
         {children}
       </body>
     </html>

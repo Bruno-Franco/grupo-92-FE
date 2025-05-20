@@ -4,6 +4,8 @@
 import { Fragment, FormEvent, useState } from 'react';
 import FormBTN from './button-form-component';
 import { NextRequest } from 'next/server';
+import { getCaptchaToken } from '@/app/utils/captcha';
+import { preInscForm } from '@/app/api/actions';
 
 export default function FormInputs() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -24,21 +26,30 @@ export default function FormInputs() {
       ) as unknown as NextRequest;
       const bodyString = JSON.stringify(values);
 
-      const response = await fetch(`/api/send-email`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: bodyString,
-      });
+      // getting the token
+      const token = await getCaptchaToken();
 
-      // const dataResponse = await response.json();
-      // console.log(dataResponse);
+      const res = await preInscForm(token);
 
-      if (response.ok) {
-        setSubmitStatus('success');
-        // Opcional: Limpar o formulário após envio bem-sucedido
-        form.reset();
+      if (res.success) {
+        const response = await fetch(`/api/send-email`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: bodyString,
+        });
+
+        // const dataResponse = await response.json();
+        // console.log(dataResponse);
+
+        if (response.ok) {
+          setSubmitStatus('success');
+          // Opcional: Limpar o formulário após envio bem-sucedido
+          form.reset();
+        } else {
+          setSubmitStatus('error');
+        }
       } else {
         setSubmitStatus('error');
       }
