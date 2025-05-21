@@ -81,7 +81,8 @@ export default function SobreNos() {
               <p className="mb-4">
                 Imagina só: começámos com um grupo maioritariamente de lobitos
                 (os mais novos), mas também com alguns elementos da tribo júnior
-                que formaram as nossas quatro primeiras patrulhas:{' '}
+                (atual tribo de escoteiros) que formaram as nossas quatro
+                primeiras patrulhas:{' '}
                 <strong>Moby-Dick, Foca, Tubarão e Espadarte</strong> - nomes
                 que refletem a nossa génese como Grupo Marítimo, que durante
                 muitos anos usou uniforme azul! 🌊
@@ -103,8 +104,8 @@ export default function SobreNos() {
               <li className="flex items-start">
                 <span className="text-scout-verde font-bold mr-2">→</span>
                 <span>
-                  <strong>Branco</strong>: Simboliza a honra e a pureza de
-                  espírito que desenvolvemos
+                  <strong>Branco</strong>: Simboliza a honra e a pureza dos
+                  jovens
                 </span>
               </li>
               <li className="flex items-start">
@@ -266,7 +267,7 @@ export default function SobreNos() {
                   <li className="flex items-start">
                     <span className="text-scout-verde font-bold mr-2">→</span>
                     <span>
-                      <strong>Marta Luís</strong>: 2023 a 2026
+                      <strong>Marta Luís</strong>: Desde 2023
                     </span>
                   </li>
                 </ul>

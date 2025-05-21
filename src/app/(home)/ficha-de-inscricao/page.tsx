@@ -1,6 +1,7 @@
 import FormInputs from '@/components/form-component/form-component';
 import Image from 'next/image';
 import { Metadata } from 'next';
+import GrupoMaps from '@/components/map-component';
 
 export const metadata: Metadata = {
   title: 'Inscrição | Grupo 92 dos Escoteiros - Funchal, Madeira',
@@ -193,7 +194,7 @@ export default function FichaDeInscricao() {
           </div>
         </div>
       </div>
-
+      <GrupoMaps />
       {/* Schema.org para SEO */}
       <script
         type="application/ld+json"
