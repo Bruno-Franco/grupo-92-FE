@@ -10,7 +10,7 @@ export default function DropDownMenu() {
   return (
     <Fragment>
       {isOpen && (
-        <div className="absolute  w-screen top-[65px] bg-white flex flex-col p-4 gap-5 items-center z-1">
+        <div className="absolute w-screen top-[71px] right-[-4px] bg-white flex flex-col p-4 gap-5 items-center z-1">
           <Link
             href={'/sobre-nos'}
             onClick={handleMenu}
