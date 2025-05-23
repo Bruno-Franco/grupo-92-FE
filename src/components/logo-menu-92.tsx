@@ -18,7 +18,7 @@ export default function LogoMenu92() {
         alt="Logo Escoteiro de Portugal"
         width={200}
         height={66}
-        className="rounded-br-2xl"
+        className="rounded-br-2xl sm:w-[200px] w-[180px]"
       />
     </Link>
   );
