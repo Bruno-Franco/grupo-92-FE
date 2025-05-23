@@ -32,6 +32,7 @@ export default function FormInputs() {
       const res = await preInscForm(token);
 
       if (res.success) {
+        // console.log('bodyString', bodyString);
         const response = await fetch(`/api/send-email`, {
           method: 'POST',
           headers: {
@@ -39,6 +40,7 @@ export default function FormInputs() {
           },
           body: bodyString,
         });
+        // console.log('OK', response.ok);
 
         // const dataResponse = await response.json();
         // console.log(dataResponse);
