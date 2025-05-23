@@ -17,7 +17,7 @@ export default function Home() {
                 Aventura da tua VIDA!
               </h2>
               <p className="  sm:text-lg text-scout-azul mb-2.5">
-                🌲 DESCUBRE, EXPLORA, CONQUISTA 🌲
+                🌲 DESCOBRE, EXPLORA, CONQUISTA 🌲
               </p>
               <div>
                 <p className="sm:text-lg text-scout-azul">
