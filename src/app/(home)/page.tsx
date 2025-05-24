@@ -21,10 +21,10 @@ export default function Home() {
               </p>
               <div>
                 <p className="sm:text-lg text-scout-azul">
-                  Faça amigos, aprenda habilidades incríveis e
+                  Faz amigos, aprende habilidades incríveis e
                 </p>
                 <p className="sm:text-lg text-scout-azul mb-2.5">
-                  viva aventuras inesquecíveis na natureza!
+                  vive aventuras inesquecíveis na natureza!
                 </p>
               </div>
             </div>
