@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Merriweather_Sans, Open_Sans } from 'next/font/google';
 import './globals.css';
 import Script from 'next/script';
-import { GoogleAnalytics } from '@next/third-parties/google';
+import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
 
 const merriWeather = Merriweather_Sans({
   variable: '--font-merriWeather-sans',
@@ -29,6 +29,7 @@ export default function RootLayout({
       lang="pt-BR"
       className={`${openSans.variable} antialiased`}
     >
+      <GoogleTagManager gtmId="GTM-PPNBBJTX" />
       <body
         className={`${merriWeather.variable}  antialiased min-h-screen flex flex-col`}
       >
