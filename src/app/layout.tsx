@@ -29,7 +29,6 @@ export default function RootLayout({
       lang="pt-BR"
       className={`${openSans.variable} antialiased`}
     >
-      <GoogleAnalytics gaId="G-DDR6S5WY04" />
       <body
         className={`${merriWeather.variable}  antialiased min-h-screen flex flex-col`}
       >
@@ -39,6 +38,7 @@ export default function RootLayout({
         />
         {children}
       </body>
+      <GoogleAnalytics gaId="G-DDR6S5WY04" />
     </html>
   );
 }
