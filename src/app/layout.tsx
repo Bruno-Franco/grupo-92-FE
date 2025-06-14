@@ -16,7 +16,7 @@ const openSans = Open_Sans({
 export const metadata: Metadata = {
   title: 'Grupo de Escoteiros 92 | Funchal, Madeira',
   description:
-    'Junta-te ao Grupo 92 de Escoteiros do Funchal! Descobre aventuras, competências para a vida e faz amizades duradouras. Uma experiência única para todas as idades, dos 6 aos 18 anos.',
+    'Somos os Escoteiros Grupo 92 da AEP localizados no Funchal - Madeira - Portugal! Descobre aventuras, competências para a vida e faz amizades duradouras. Uma experiência única para todas as idades, dos 6 aos 18 anos.',
 };
 
 export default function RootLayout({
