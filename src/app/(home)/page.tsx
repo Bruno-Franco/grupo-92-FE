@@ -64,7 +64,7 @@ export default function Home() {
                   <span className="text-scout-verde font-bold mr-2">→</span>
                   <span>
                     O astronauta <strong>Neil Armstrong</strong>, primeiro homem
-                    a pisar na Lua, foi escoteiro!
+                    a pisar na Lua, foi escoteiro!!
                   </span>
                 </li>
                 <li className="flex items-start">
