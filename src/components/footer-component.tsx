@@ -46,7 +46,7 @@ export default function Footer() {
           >
             Feito por, Bruno-Franco
           </Link>
-          . Sempre Alerta ❤️.
+          . Sempre Pronto ❤️.
         </span>
       </div>
     </footer>

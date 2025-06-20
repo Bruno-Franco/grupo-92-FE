@@ -93,7 +93,7 @@ export default function Home() {
                 <li className="flex items-start">
                   <span className="text-scout-verde font-bold mr-2">→</span>
                   <span>
-                    Escoteiros têm <strong>20% mais probabilidade</strong> de se
+                    Escoteiros têm <strong>mais probabilidade</strong> de se
                     tornarem líderes nas suas carreiras!
                   </span>
                 </li>
@@ -149,8 +149,10 @@ export default function Home() {
               Pronto para a maior aventura da tua vida?
             </h3>
             <p className="text-lg text-scout-azul/90 mb-8 max-w-2xl mx-auto">
-              Junta-te ao Grupo 92 do Funchal e começa já a explorar, aprender e
-              crescer num ambiente único e cheio de aventuras!
+              Junta-te ao Grupo 92 do Funchal, parte da <strong>AEP</strong>{' '}
+              (Associação dos Escoteiros de Portugal), e descobre o mundo dos{' '}
+              <strong>Escoteiros</strong>! Começa já a explorar, aprender e
+              crescer num ambiente único e cheio de aventuras escotistas.
             </p>
             <BTNContact />
           </div>
